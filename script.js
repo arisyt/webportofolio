@@ -4,17 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       nama: "Stylus Pencil Prokontol",
       deskripsi: "Alat tulis digital untuk meningkatkan produktivitas Anda.",
-      gambar: "/img/item/product1.png"
+      gambar: "/img/item/produk1.png"
     },
     {
       nama: "Smart Glasses 2.0",
       deskripsi: "Kacamata pintar dengan augmented reality terintegrasi.",
-      gambar: "/img/item/product2.png"
+      gambar: "/img/item/produk2.png"
     },
     {
       nama: "AI Home Assistant",
       deskripsi: "Asisten rumah berbasis AI untuk kenyamanan dan keamanan Anda.",
-      gambar: "img/product/produk3.png"
+      gambar: "img/item/produk3.png"
     }
   ];
 
