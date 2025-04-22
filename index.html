@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Level Satu TechCorp</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="absolute top-0 left-0 w-full flex items-center justify-between px-8 py-4 z-20">
+    <div class="flex items-center space-x-4">
+      <img src="img/L.png" alt="Logo" class="h-10">
+      <span class="text-white text-4xl font-bold">Level Satu</span>
+    </div>
+    <ul class="flex space-x-4 text-white">
+      <li><a href="index.html" class="px-4 py-2 rounded-full hover:bg-white hover:text-blue-500">Dashboard</a></li>
+      <li><a href="#informasi" class="px-4 py-2 rounded-full hover:bg-white hover:text-blue-500">Informasi</a></li>
+      <li><a href="#kontak" class="px-4 py-2 rounded-full hover:bg-white hover:text-blue-500">Kontak</a></li>
+      <li><a href="#testimoni" class="px-4 py-2 rounded-full hover:bg-white hover:text-blue-500">Testimoni</a></li>
+      <li><a href="#klien" class="px-4 py-2 rounded-full hover:bg-white hover:text-blue-500">Project</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section Produk + Klien -->
+  <section class="relative min-h-screen flex flex-col justify-center bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 overflow-hidden">
+
+    <!-- Background transparan -->
+    <div class="absolute inset-0 bg-[url('img/bg.png')] bg-cover bg-center opacity-20 z-0"></div>
+
+    <!-- Produk Container -->
+    <div id="produkContainer" class="relative z-10 flex flex-col md:flex-row items-center md:items-start justify-center text-white px-6 pt-32 space-y-6 md:space-y-0 md:space-x-10 overflow-hidden">
+
+      <!-- Gambar Produk -->
+      <div class="relative w-72 h-72 flex-shrink-0 overflow-hidden">
+        <div id="produkWrapper" class="w-full h-full transition-transform duration-500 ease-in-out">
+          <img id="produkGambar" src="/img/product/product1.png" alt="Produk" class="w-full h-full object-cover rounded-xl shadow-lg">
+        </div>
+      </div>
+
+      <!-- Deskripsi Produk -->
+      <div class="text-center md:text-left max-w-lg">
+        <h1 id="produkNama" class="text-4xl font-bold mb-4">Stylus Pencil Pro</h1>
+        <p id="produkDeskripsi" class="text-lg">Alat tulis digital untuk meningkatkan produktivitas Anda.</p>
+      </div>
+
+    </div>
+
+    <!-- Tombol Navigasi -->
+    <div class="relative z-10 flex justify-center mt-10 space-x-4">
+      <button id="prevBtn" class="bg-white text-blue-500 px-4 py-2 rounded-full shadow hover:bg-gray-200 transition">Prev</button>
+      <button id="nextBtn" class="bg-white text-blue-500 px-4 py-2 rounded-full shadow hover:bg-gray-200 transition">Next</button>
+    </div>
+
+    <!-- Klien Kami -->
+    <div class="relative z-10 mt-24 text-center text-white">
+      <h2 class="text-3xl font-bold mb-12">Klien Kami</h2>
+      <div class="flex flex-wrap justify-center gap-10">
+        <img src="logo_klien1.png" alt="Klien 1" class="w-24 h-24 object-contain opacity-80 hover:opacity-100 transition">
+        <img src="logo_klien2.png" alt="Klien 2" class="w-24 h-24 object-contain opacity-80 hover:opacity-100 transition">
+        <img src="logo_klien3.png" alt="Klien 3" class="w-24 h-24 object-contain opacity-80 hover:opacity-100 transition">
+        <img src="logo_klien4.png" alt="Klien 4" class="w-24 h-24 object-contain opacity-80 hover:opacity-100 transition">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 Level Satu TechCorp. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>

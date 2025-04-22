@@ -1,4 +1,4 @@
 # webportofolio
 
 preview :
-https://arisyt.github.io/webportofolio/mantap.html
+https://arisyt.github.io/webportofolio/index.html
